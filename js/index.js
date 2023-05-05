@@ -101,7 +101,7 @@ panel.onclick = function(e){
 // 旋转完成后，要做的事情
 function transitionendHandle(){
     initImg.style.opacity = 0; // 将魔盘圆心修改为透明
-    resultImg.src = `../images/values/${curTargetIndex}.png`; // 设置结果图片
+    resultImg.src = `./images/values/${curTargetIndex}.png`; // 设置结果图片
     resultImg.style.opacity = 1; // 将结果图片显示出来
     isGameOver = true;
 }
