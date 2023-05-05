@@ -61,7 +61,7 @@ function init() {
             <div class="item">
                 <span class="number">${i}</span>
                 <span class="value">
-                    <img src="../images/values/${imgIndex}.png"/>
+                    <img src="./images/values/${imgIndex}.png"/>
                 </span>
             </div>
         `;
